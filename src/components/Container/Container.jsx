@@ -1,9 +1,5 @@
-const Container = () => {
-  return (
-    <>
-      <h1>Container</h1>
-    </>
-  );
+const Container = (props) => {
+  return <>{props.children}</>;
 };
 
 export default Container;
