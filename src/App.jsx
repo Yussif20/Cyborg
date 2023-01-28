@@ -1,6 +1,7 @@
 import "./App.css";
 
-import { Header, Container, Hero } from "./components/index";
+import { Container } from "./components/index.js";
+import { Header, Hero } from "./sections/index.js";
 
 function App() {
   return (

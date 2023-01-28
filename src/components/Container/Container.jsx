@@ -1,5 +1,6 @@
+import "./container.css";
 const Container = (props) => {
-  return <>{props.children}</>;
+  return <div className="container main-container">{props.children}</div>;
 };
 
 export default Container;
