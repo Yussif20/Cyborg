@@ -8,7 +8,34 @@
   --padding-primary: var(--distance-primary);
   --margin-primary: var(--distance-primary);
   --border-radius-primary: calc(var(--distance-primary) / 2);
+  --border-radius-secondary: calc(var(--distance-primary) / 4);
 }
 body {
   background-color: var(--color-darkest);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+img,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
 }

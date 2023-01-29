@@ -1,7 +1,7 @@
 import "./App.css";
 
 import { Container } from "./components/index.js";
-import { Header, Hero } from "./sections/index.js";
+import { Header, Hero, MostPopular } from "./sections/index.js";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Container>
         <Hero />
+        <MostPopular />
       </Container>
     </div>
   );
