@@ -1,5 +1,6 @@
 import "./MostPopular.css";
 import imgOne from "../../assets/Images/popular-01.jpg";
+import Card from "../../components/Card/Card";
 
 const MostPopular = () => {
   return (
@@ -9,86 +10,62 @@ const MostPopular = () => {
           <h4>Most Popular</h4>
         </div>
         <div className="most-popular-items">
-          <div className="most-popular-item">
-            <div className="card-wrapper">
-              <img className="most-popular-item-image" src={imgOne} />
-              <div className="most-popular-item-content">
-                <h4 className="most-popular-item-title">
-                  Fortnight
-                  <br />
-                  <span>Sandbox</span>
-                </h4>
-                <ul>
-                  <li>
-                    <span>4.8</span>
-                  </li>
-                  <li>
-                    <span>4.8M</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>{" "}
-          <div className="most-popular-item">
-            <div className="card-wrapper">
-              <img className="most-popular-item-image" src={imgOne} />
-              <div className="most-popular-item-content">
-                <h4 className="most-popular-item-title">
-                  Fortnight
-                  <br />
-                  <span>Sandbox</span>
-                </h4>
-                <ul>
-                  <li>
-                    <span>4.8</span>
-                  </li>
-                  <li>
-                    <span>4.8M</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>{" "}
-          <div className="most-popular-item">
-            <div className="card-wrapper">
-              <img className="most-popular-item-image" src={imgOne} />
-              <div className="most-popular-item-content">
-                <h4 className="most-popular-item-title">
-                  Fortnight
-                  <br />
-                  <span>Sandbox</span>
-                </h4>
-                <ul>
-                  <li>
-                    <span>4.8</span>
-                  </li>
-                  <li>
-                    <span>4.8M</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>{" "}
-          <div className="most-popular-item">
-            <div className="card-wrapper">
-              <img className="most-popular-item-image" src={imgOne} />
-              <div className="most-popular-item-content">
-                <h4 className="most-popular-item-title">
-                  Fortnight
-                  <br />
-                  <span>Sandbox</span>
-                </h4>
-                <ul>
-                  <li>
-                    <span>4.8</span>
-                  </li>
-                  <li>
-                    <span>4.8M</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <Card
+            image={imgOne}
+            title="Fortnight"
+            category="Sandbox"
+            rate="4.2"
+            download="2.2M"
+          />
+          <Card
+            image={imgOne}
+            title="Pubg"
+            category="Legendry"
+            rate="4.8"
+            download="3.5M"
+          />
+          <Card
+            image={imgOne}
+            title="CS-Go"
+            category="Stream-X"
+            rate="4.5"
+            download="1.2M"
+          />
+          <Card
+            image={imgOne}
+            title="Witcher"
+            category="Legendry"
+            rate="4"
+            download="3.4M"
+          />
+          <Card
+            image={imgOne}
+            title="Fortnight"
+            category="Sandbox"
+            rate=""
+            download=""
+          />
+          <Card
+            image={imgOne}
+            title="Pubg"
+            category="Legendry"
+            rate=""
+            download=""
+          />
+          <Card
+            image={imgOne}
+            title="CS-Go"
+            category="Sandbox"
+            rate=""
+            download=""
+          />
+          <Card
+            image={imgOne}
+            title="Witcher"
+            category="Legendry"
+            rate=""
+            download=""
+          />
         </div>
       </div>
       ;
