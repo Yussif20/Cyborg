@@ -12,6 +12,11 @@
   padding: calc(var(--padding-primary) / 2);
   margin: calc(var(--margin-primary) / 5);
 }
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .most-popular-item-image {
   border-radius: var(--border-radius-secondary);
   margin-bottom: calc(var(--margin-primary) / 2);

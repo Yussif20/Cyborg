@@ -7,11 +7,11 @@ import imgFive from "../../assets/Images/popular-05.jpg";
 import imgSix from "../../assets/Images/popular-06.jpg";
 import imgSeven from "../../assets/Images/popular-07.jpg";
 import imgEight from "../../assets/Images/popular-08.jpg";
-import { Card, SectionHeader } from "../../components/index.js";
+import { Card, SectionHeader, SectionWrapper } from "../../components/index.js";
 const MostPopular = () => {
   return (
     <>
-      <div className="section-wrapper">
+      <SectionWrapper>
         <SectionHeader>Most popular</SectionHeader>
         <div className="most-popular-items">
           <Card
@@ -71,7 +71,7 @@ const MostPopular = () => {
             download="5.6M"
           />
         </div>
-      </div>
+      </SectionWrapper>
       ;
     </>
   );

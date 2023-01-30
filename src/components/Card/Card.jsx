@@ -5,7 +5,9 @@ const Card = (props) => {
   return (
     <div className="most-popular-item">
       <div className="card-wrapper">
-        <img className="most-popular-item-image" src={props.image} />
+        <div className="image-wrapper">
+          <img className="most-popular-item-image" src={props.image} />
+        </div>
         <div className="most-popular-item-content">
           <h4 className="most-popular-item-title">
             {props.title}
