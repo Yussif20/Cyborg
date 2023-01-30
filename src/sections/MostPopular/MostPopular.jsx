@@ -49,29 +49,29 @@ const MostPopular = () => {
             image={imgFive}
             title="Fortnight"
             category="Sandbox"
-            rate=""
-            download=""
+            rate="4.1"
+            download="1.6M"
           />
           <Card
             image={imgSix}
             title="Pubg"
             category="Legendry"
-            rate=""
-            download=""
+            rate="3.5"
+            download="1M"
           />
           <Card
             image={imgSeven}
             title="CS-Go"
             category="Sandbox"
-            rate=""
-            download=""
+            rate="4.1"
+            download="1.2M"
           />
           <Card
             image={imgEight}
             title="Witcher"
             category="Legendry"
-            rate=""
-            download=""
+            rate="3.9"
+            download="5.6M"
           />
         </div>
       </div>

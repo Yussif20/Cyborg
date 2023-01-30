@@ -1,6 +1,11 @@
 .most-popular-item {
   flex: 1 25%;
 }
+.most-popular-item-content li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
 .card-wrapper {
   background-color: var(--color-dark);
   border-radius: var(--border-radius-secondary);
@@ -18,4 +23,5 @@
 }
 .most-popular-item-title {
   font-size: 14px;
+  line-height: 1.5rem;
 }
