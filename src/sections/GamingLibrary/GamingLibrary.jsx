@@ -22,7 +22,7 @@ const GamingLibrary = () => {
   return (
     <>
       <SectionWrapper>
-        <SectionHeader>Gaming Library</SectionHeader>
+        <SectionHeader first="Gaming" second="Library" />
         <div className="gaming-library-cards">{cards}</div>
       </SectionWrapper>
       ;

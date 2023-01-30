@@ -3,7 +3,10 @@ import "./SectionHeader.css";
 const SectionHeader = (props) => {
   return (
     <div className="section-header">
-      <h4>{props.children}</h4>
+      <h4>
+        {props.first}
+        <span>{props.second}</span>
+      </h4>
     </div>
   );
 };

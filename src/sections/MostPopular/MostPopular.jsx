@@ -18,7 +18,7 @@ const MostPopular = () => {
   return (
     <>
       <SectionWrapper>
-        <SectionHeader>Most popular</SectionHeader>
+        <SectionHeader first="Most" second="Popular" />
         <div className="most-popular-items">{cards}</div>
       </SectionWrapper>
       ;
