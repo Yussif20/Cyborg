@@ -7,15 +7,12 @@ import imgFive from "../../assets/Images/popular-05.jpg";
 import imgSix from "../../assets/Images/popular-06.jpg";
 import imgSeven from "../../assets/Images/popular-07.jpg";
 import imgEight from "../../assets/Images/popular-08.jpg";
-import Card from "../../components/Card/Card";
-
+import { Card, SectionHeader } from "../../components/index.js";
 const MostPopular = () => {
   return (
     <>
       <div className="section-wrapper">
-        <div className="section-header">
-          <h4>Most Popular</h4>
-        </div>
+        <SectionHeader>Most popular</SectionHeader>
         <div className="most-popular-items">
           <Card
             image={imgOne}
