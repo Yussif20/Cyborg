@@ -1,7 +1,13 @@
 import "./App.css";
 
 import { Container } from "./components/index.js";
-import { GamingLibrary, Header, Hero, MostPopular } from "./sections/index.js";
+import {
+  Footer,
+  GamingLibrary,
+  Header,
+  Hero,
+  MostPopular,
+} from "./sections/index.js";
 
 function App() {
   return (
@@ -12,6 +18,7 @@ function App() {
         <MostPopular />
         <GamingLibrary />
       </Container>
+      <Footer />
     </div>
   );
 }
