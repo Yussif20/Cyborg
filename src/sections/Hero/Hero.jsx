@@ -1,3 +1,4 @@
+import PrimaryButton from "../../components/Buttons/PrimaryButton";
 import "./Hero.css";
 
 const Hero = () => {
@@ -8,9 +9,7 @@ const Hero = () => {
         <h4 className="hero-title">
           <em>Browse</em> Our Popular Games now.
         </h4>
-        <div className="main-button">
-          <a href="browse.html">Browse Now</a>
-        </div>
+        <PrimaryButton>Browse Now</PrimaryButton>
       </div>
     </div>
   );

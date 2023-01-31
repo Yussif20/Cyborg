@@ -1,4 +1,5 @@
 import "./GamingLibraryCard.css";
+import SecondaryButton from "../Buttons/SecondaryButton";
 
 const GamingLibraryCard = (props) => {
   return (
@@ -23,9 +24,7 @@ const GamingLibraryCard = (props) => {
           <h4>Currently</h4>
           <span>{props.downloaded}</span>
         </li>
-        <div className="main-button">
-          <a href="#">Download</a>
-        </div>
+        <SecondaryButton>Download</SecondaryButton>
       </ul>
     </div>
   );

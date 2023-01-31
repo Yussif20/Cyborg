@@ -11,7 +11,7 @@ const Footer = () => {
               <br />
               Design
               <a
-                href="#https://templatemo.com"
+                href="https://templatemo.com"
                 target="_blank"
                 title="free css template"
               >
