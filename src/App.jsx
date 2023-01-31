@@ -1,22 +1,16 @@
 import "./App.css";
 
 import { Container } from "./components/index.js";
-import {
-  Footer,
-  GamingLibrary,
-  Header,
-  Hero,
-  MostPopular,
-} from "./sections/index.js";
+import { Footer, Header } from "./sections/index.js";
+import { Home, Browse } from "./Pages/index.js";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Container>
-        <Hero />
-        <MostPopular />
-        <GamingLibrary />
+        <Home />
+        <Browse />
       </Container>
       <Footer />
     </div>
