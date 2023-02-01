@@ -13,6 +13,7 @@ const Footer = () => {
               <a
                 href="https://templatemo.com"
                 target="_blank"
+                // rel="noreferrer"
                 title="free css template"
               >
                 : TemplateMo

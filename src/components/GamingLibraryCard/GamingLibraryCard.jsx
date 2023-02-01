@@ -5,7 +5,7 @@ const GamingLibraryCard = (props) => {
   return (
     <div className="gaming-library-card">
       <ul>
-        <li>
+        <li className="gaming-library-card-image">
           <img src={props.image} />
         </li>
         <li>
